@@ -4,6 +4,8 @@ A simple, functional Discord bot that pulls real-time job listings from LinkedIn
 
 I built this script because manually checking multiple job boards every morning is exhausting and full of spam. With this bot, I can just type a command in my server and get the latest postings instantly.
 
+I made only 5 jobs shwon, but you can change it in the code.
+
 ## ✨ Features
 - **Real-time Search:** Fetches fresh job postings based on any keyword and location you want.
 - **Clean UI:** Displays results nicely using Discord Embeds (Company, Location, Job Type, and Source).
