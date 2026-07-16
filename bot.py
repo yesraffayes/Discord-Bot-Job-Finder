@@ -68,7 +68,7 @@ async def fjob(ctx, *, keyword="Frontend"):
             location = (
                 f"{city}, {country}".strip(", ")
                 if (city or country)
-                else "Unkown Location!"
+                else "Unknown Location!"
             )
 
             apply_link = job.get("job_apply_link", "https://linkedin.com")
