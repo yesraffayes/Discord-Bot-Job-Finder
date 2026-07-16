@@ -60,12 +60,12 @@ python bot.py
 ~~~
 
 ## 💡 How to Use
-Once the bot is online in your server, simply use the `!loker` command followed by your search keyword:
+Once the bot is online in your server, simply use the `!job` command followed by your search keyword:
 
 ~~~text
 !loker junior frontend developer remote
 ~~~
-Or just type `!loker` to use the default search query.
+Or just type `!job` to use the default search query.
 
 ---
 *Feel free to fork this repo and tweak the search filters to fit your own job hunting needs!*
