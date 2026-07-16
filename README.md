@@ -23,3 +23,49 @@ I made only 5 jobs shwon, but you can change it in the code.
 ```bash
 git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
 cd your-repo-name
+```
+
+### 2. Install dependencies
+Make sure you have Python installed, then run:
+~~~bash
+pip install -r requirements.txt
+~~~
+
+### 3. Get your API Keys & Tokens (Free)
+Before running the code, you need to grab two free credentials:
+
+**A. Discord Bot Token:**
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and create a **New Application**.
+2. Go to the **Bot** tab on the left menu, click **Reset Token**, and copy your token.
+3. *Important:* Scroll down on the Bot tab and enable **Message Content Intent** so the bot can read your commands.
+4. Go to **OAuth2 -> URL Generator**, check `bot` and `Send Messages`, then paste the generated URL in your browser to invite the bot to your Discord server.
+
+**B. RapidAPI Key (JSearch):**
+1. Create a free account on [RapidAPI](https://rapidapi.com/) and go to the [JSearch API page](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch).
+2. Click **Subscribe to Test** and choose the **Basic (Free)** plan (gives you 200 free requests/month, more than enough for personal use).
+3. On the API playground page, copy your **X-RapidAPI-Key**.
+
+### 4. Set up environment variables
+Create a file named `.env` in the root folder of your project and paste your keys like this:
+
+~~~env
+DISCORD_TOKEN=your_discord_bot_token_here
+RAPIDAPI_KEY=your_rapidapi_key_here
+~~~
+*(Note: Never share or commit your `.env` file to GitHub! Make sure `.env` is listed in your `.gitignore`)*
+
+### 5. Run the bot
+~~~bash
+python bot.py
+~~~
+
+## 💡 How to Use
+Once the bot is online in your server, simply use the `!loker` command followed by your search keyword:
+
+~~~text
+!loker junior frontend developer remote
+~~~
+Or just type `!loker` to use the default search query.
+
+---
+*Feel free to fork this repo and tweak the search filters to fit your own job hunting needs!*
