@@ -18,7 +18,7 @@ async def on_ready():
 
 
 @bot.command()
-async def loker(ctx, *, keyword="Frontend"):
+async def fjob(ctx, *, keyword="Frontend"):
 
     await ctx.send(
         f"🔍 *finding job for:* **{keyword}**...\nPlease wait!"
