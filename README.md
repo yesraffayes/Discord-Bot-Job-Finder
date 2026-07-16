@@ -63,7 +63,7 @@ python bot.py
 Once the bot is online in your server, simply use the `!job` command followed by your search keyword:
 
 ~~~text
-!loker junior frontend developer remote
+!job junior frontend developer remote
 ~~~
 Or just type `!job` to use the default search query.
 
